@@ -26,7 +26,7 @@ background : -moz-linear-gradient(2.72% -10.43% -30deg,rgba(78, 157, 207, 1) 0%,
 .section2 {
   height: 500px;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 110px;
   z-index: 0;
   position: relative;
 }
@@ -102,9 +102,10 @@ background : -moz-linear-gradient(2.72% -10.43% -30deg,rgba(78, 157, 207, 1) 0%,
     z-index: 1;
     position: relative;
 
-    -webkit-box-shadow: 0px 4px 5px 1px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0px 4px 5px 1px rgba(0,0,0,0.2);
-    box-shadow: 0px 4px 5px 1px rgba(0,0,0,0.2);
+  background : #FFFFFF;
+  background : rgba(255, 255, 255, 1);
+  box-shadow : 0px 7px 10px rgba(22, 19, 34, 0.25);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=7, Color='#161322') ;
 }
 
 .header a{
