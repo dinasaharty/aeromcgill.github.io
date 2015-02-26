@@ -141,8 +141,8 @@ body {
 
   background : #FFFFFF;
   background : rgba(255, 255, 255, 1);
-  box-shadow : 0px 7px 10px rgba(22, 19, 34, 0.25);
-  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=7, Color='#161322') ;
+  box-shadow : 0px 4px 3px rgba(22, 19, 34, 0.2);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=4, Color='#161322') ;
 }
 
 .header a{
@@ -150,6 +150,16 @@ body {
   padding-right: 10px;  
   font-family: 'Roboto', sans-serif;
   color: #788F9B;
+  -o-transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+  -khtml-transition: color 0.2s linear;
+  -webkit-transition: color 0.2s linear;
+  -ms-transition: color 0.2s linear;
+  transition: color 0.2s linear;  
+}
+
+.header a:hover{
+  color: #70B2E1;
 }
 
 .header nav {
