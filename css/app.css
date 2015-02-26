@@ -6,6 +6,28 @@
     local('AvenirLTStd-Light'),
     url('fonts/AvenirLTStd-Light.otf') 
     format('opentype');
+  font-weight: light;
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-Heavy';
+  src: url('fonts/AvenirLTStd-Heavy.otf'); 
+  src: 
+    local('AvenirLTStd-Heavy'),
+    local('AvenirLTStd-Heavy'),
+    url('fonts/AvenirLTStd-Heavy.otf') 
+    format('opentype');
+  font-weight: heavy;
+}
+
+@font-face {
+  font-family: 'ITCAvantGardeStd-Demi';
+  src: url('fonts/ITCAvantGardeStd-Demi.otf'); 
+  src: 
+    local('ITCAvantGardeStd-Demi'),
+    local('ITCAvantGardeStd-Demi'),
+    url('fonts/ITCAvantGardeStd-Demi.otf') 
+    format('opentype');
 }
 
 
@@ -30,7 +52,7 @@ background : -moz-linear-gradient(2.72% -10.43% -30deg,rgba(78, 157, 207, 1) 0%,
 
 .section1 p {
   color: white;
-  font-family: 'AvenirLTStd-Light';
+  font-family: 'AvenirLTStd-Light', sans-serif;
   font-size: 18px;
   padding-left: 100px;
   padding-right: 100px; 
@@ -55,7 +77,7 @@ background : -moz-linear-gradient(2.72% -10.43% -30deg,rgba(78, 157, 207, 1) 0%,
   text-align: center;
   color: white;
  
-  font-family: 'AvenirLTStd-Light';
+  font-family: 'AvenirLTStd-Light', sans-serif;
   font-size: 18px;
   padding-top: 100px;
   z-index: 0;
@@ -77,7 +99,7 @@ background : -moz-linear-gradient(2.72% -10.43% -30deg,rgba(78, 157, 207, 1) 0%,
     font-size: 40px;
     color: white;
    
-    font-family: 'AvenirLTStd-Heavy';
+    font-family: 'AvenirLTStd-Heavy', sans-serif;
 }
 
 .section3 p {
@@ -168,7 +190,7 @@ body {
   font-size: 40px;
   color: #58585B;
    
-  font-family: 'AvenirLTStd-Heavy';
+  font-family: 'AvenirLTStd-Heavy', sans-serif;
 }
 
 
